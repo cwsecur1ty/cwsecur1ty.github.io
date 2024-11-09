@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Cameron's Documentation Hub: Comprehensive Guide to My Homelab Infrastructure and Security Projects
+# Comprehensive Guide to My Homelab Infrastructure and Security Projects
 
 This hub documents the design, setup, and ongoing projects of my homelab & security projects. Here, you’ll find resources on each part of my Proxmox-based homelab, covering network configuration, services, monitoring, and future project plans.
 
