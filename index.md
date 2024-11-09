@@ -1,1 +1,1 @@
-[Home](index.md) | [Network Setup](network.md) | [Services](services.md) | [Architecture](architecture.md)
+[Home](index.md) | [Homelab Setup](homelab_setup.md) | [Administration](administration.md) | [Security](security.md)
