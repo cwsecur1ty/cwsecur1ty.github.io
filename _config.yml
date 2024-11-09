@@ -1,3 +1,6 @@
 title: "cwsecur1ty Project Documentation"
 description: "Documenting my homelab and IT projects."
 theme: "jekyll-theme-slate" # or any other GitHub Pages theme
+social:
+  linkedin: "https://www.linkedin.com/in/cameron-ws/"
+
