@@ -3,6 +3,13 @@ layout: default
 title: "Home"
 ---
 
+<!-- LinkedIn logo and link at the top -->
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="https://www.linkedin.com/in/cameron-ws/" target="_blank" aria-label="LinkedIn">
+    <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn" style="width: 30px; height: 30px;"/>
+  </a>
+</div>
+
 # Comprehensive Guide to My Homelab Infrastructure and Security Projects
 
 This hub documents the design, setup, and ongoing projects of my homelab & security projects. Here, you’ll find resources on each part of my Proxmox-based homelab, covering network configuration, services, monitoring, and future project plans.
