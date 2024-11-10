@@ -35,13 +35,12 @@ My home lab is built on Proxmox and is designed to host various services for IT 
 
 ## 🖧 Homelab Setup
 
-The network setup involves a segmented architecture allowing isolated environments for different services, improving both organisation and security. Key elements include:
+The lab setup involves a segmented architecture allowing isolated environments for different services, improving both organisation and security. Key elements include:
 
-- **Virtual LANs (VLANs)**: Used to separate environments (e.g., main, lab & media).
-- **Firewall Rules**: Configured to restrict access and control traffic between VLANs.
-- **Router Configuration**: Setup details for the network’s gateway, DNS, and DHCP.
+- **Proxmox**: Proxmox VE is used to manage my VMs, containers and storage.
+- **Virtual Machines**: Virtual environments where services are running (e.g., media, testing & security).
   
-➡️ [Learn more about the Network Setup](network.md)
+➡️ [Learn more about the Homelab Setup](homelab_setup.md)
 
 ---
 
