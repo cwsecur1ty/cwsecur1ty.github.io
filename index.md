@@ -19,7 +19,7 @@ This hub documents the design, setup, and ongoing projects of my homelab & secur
 ## 📖 Table of Contents
 
 1. [Overview](#overview)
-2. [Network Setup](#network-setup)
+2. [Homelab Setup](#Homelab-Setup)
 3. [Installed Services](#installed-services)
 4. [Server Architecture](#server-architecture)
 5. [Security and Monitoring](#security-and-monitoring)
@@ -33,7 +33,7 @@ My home lab is built on Proxmox and is designed to host various services for IT 
 
 ---
 
-## 🖧 Network Setup
+## 🖧 Homelab Setup
 
 The network setup involves a segmented architecture allowing isolated environments for different services, improving both organisation and security. Key elements include:
 
