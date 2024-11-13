@@ -10,9 +10,9 @@ title: "Home"
   </a>
 </div>
 
-# Comprehensive Guide to My Homelab Infrastructure and Security Projects
+# Welcome to my Documentation Hub
 
-This hub documents the design, setup, and ongoing projects of my homelab & security projects. Here, you’ll find resources on each part of my Proxmox-based homelab, covering network configuration, services, monitoring, and future project plans.
+This hub documents the design, setup, and ongoing projects of my homelab & security projects. You’ll find resources on each part of my Proxmox homelab, covering network configuration, services, monitoring, and future project plans.
 
 ---
 
@@ -40,7 +40,7 @@ The lab setup involves a segmented architecture allowing isolated environments f
 - **Proxmox**: Proxmox VE is used to manage my VMs, containers and storage.
 - **Virtual Machines**: Virtual environments where services are running (e.g., media, testing & security).
   
-➡️ [Learn more about the Homelab Setup](homelab_setup.md)
+➡️ [Learn more about the Homelab Setup](homelab.md)
 
 ---
 
