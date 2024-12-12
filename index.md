@@ -50,10 +50,13 @@ My featured projects are:
 
 (All projects are a consistent work in progress to keep them updated with standards and patches)
 
-- **PowerShell Scripts**: PowerShell scripts to remediate and fix things through Intune for Windows Environments. [Here](https://github.com/cwsecur1ty/PowerShell-Scripts)
-- **SIEM Tools (Splunk)**: Set up for log aggregation, analysis, and security monitoring with a web interface.
-- **Pihole**: Network-level ad blocker for network security and monitoring.
-- **Docker and Containers**: Hosting various services in isolated environments.
+- **[PowerShell Scripts](https://github.com/cwsecur1ty/PowerShell-Scripts)**: PowerShell scripts to remediate and fix things through Intune for Windows Environments.
+- **[URL Hunter](https://github.com/cwsecur1ty/URLHunter)**: URLHunter is a fast and efficient web directory brute-forcer/scanner. It is designed to uncover hidden directories and files on web servers by using a wordlist to generate requests to specified URLs.
+- **[Port Hunter](https://github.com/cwsecur1ty/PortFinder)** A Python-based tool for scanning ports on one or more target IP addresses or URLs. It supports scanning a range of ports, resolving hostnames to IP addresses, and saving scan results to a file.
+- **[Sentinel C2](https://github.com/cwsecur1ty/SentinelC2)** This project aims to better my understanding of Command and Control (C2) servers and expand my defensive skills against such threats. The project includes a C2 server and client written in Python, demonstrating basic interactions between a server and multiple clients.
+- **[Debian/Linux Hardener Toolkit/Automation](https://github.com/cwsecur1ty/Debian-Hardener-Toolkit)**: A toolkit for automating Linux security hardening and compliance auditing
+- **SIEM Tools (Splunk)**: Set up for log aggregation, analysis, and security monitoring with a web interface on my home lab.
+- **Pihole**: Network-level ad blocker for network security and monitoring on my home network, hosted on my ProxMox machine.
   
 ➡️ [Explore the Installed Services](services.md)
 
