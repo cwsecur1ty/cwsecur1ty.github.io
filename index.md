@@ -20,7 +20,7 @@ This hub documents the design, setup, and ongoing projects of my homelab & secur
 
 1. [Overview](#overview)
 2. [Homelab Setup](#Homelab-Setup)
-3. [Installed Services](#installed-services)
+3. [Coding/Dev Project Work](#Coding/Dev-Project-Work)
 4. [Server Architecture](#server-architecture)
 5. [Security and Monitoring](#security-and-monitoring)
 6. [Future Projects](#future-projects)
@@ -44,11 +44,13 @@ The lab setup involves a segmented architecture allowing isolated environments f
 
 ---
 
-## ⚙️ Installed Services
+## ⚙️ Coding/Dev Project Work
 
-My homelab hosts several services for IT and cybersecurity experimentation:
+My featured projects are:
 
-- **Proxmox Virtualization**: Foundation of the homelab, providing resource allocation and VM management.
+(All projects are a consistent work in progress to keep them updated with standards and patches)
+
+- **PowerShell Scripts**: PowerShell scripts to remediate and fix things through Intune for Windows Environments. [Here](https://github.com/cwsecur1ty/PowerShell-Scripts)
 - **SIEM Tools (Splunk)**: Set up for log aggregation, analysis, and security monitoring with a web interface.
 - **Pihole**: Network-level ad blocker for network security and monitoring.
 - **Docker and Containers**: Hosting various services in isolated environments.
