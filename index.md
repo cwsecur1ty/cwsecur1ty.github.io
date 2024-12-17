@@ -47,7 +47,7 @@ The lab setup involves a segmented architecture allowing isolated environments f
 
 Collection of AWS projects; Cloud solutions, security automation, and scalable architectures. Each project is designed to showcase practical skills with AWS services.
 
-- [Website Hosting on S3 with CloudFront](aws-s3-website.md) (A secure, cost-effective static website hosted on S3 with global delivery via CloudFront.)
+- [Website Hosting on S3 with CloudFront](aws-s3-website.md) (A secure, cost-effective static website hosted on S3 with global delivery via CloudFront.) [Live Website For This Project HERE](https://d1l9lyx1eakae6.cloudfront.net/)
   
 
 ---
