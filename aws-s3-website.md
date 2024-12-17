@@ -13,14 +13,11 @@ permalink: /aws-s3-website/
   </a>
 </div>
 
-
-# AWS S3 Website with CloudFront
-
 This project demonstrates hosting a secure, cost-effective static website using AWS S3 and CloudFront.
 
 ---
 
-## 🚀 Project Overview
+## AWS S3 - Overview
 
 - **Purpose**: Deploy a static website securely with global content delivery.
 - **Technologies**:
@@ -30,7 +27,7 @@ This project demonstrates hosting a secure, cost-effective static website using 
 
 ---
 
-## 🛠️ Architecture
+## Architecture & Lucid Chart
 
 Setup includes:
 - An **S3 bucket** for file storage.
@@ -41,7 +38,7 @@ Setup includes:
 
 ---
 
-## Step-by-Step Setup & Configuration
+## Step-by-Step Setup & Configuration (S3 Bucket & Web)
 
 ### 1. Create the S3 Bucket on AWS
 - Log in to the AWS Management Console.
@@ -96,7 +93,7 @@ Setup includes:
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Configuring static website hosting with S3.
 - Enhancing security with IAM roles and CloudFront.
