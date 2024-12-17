@@ -50,8 +50,6 @@ The lab setup involves a segmented architecture allowing isolated environments f
 Collection of AWS projects; Cloud solutions, security automation, and scalable architectures. Each project is designed to showcase practical skills with AWS services.
 
 - [Website Hosting on S3 with CloudFront](aws-s3-website.md) (A secure, cost-effective static website hosted on S3 with global delivery via CloudFront.)
-- **Proxmox**: Proxmox VE is used to manage my VMs, containers and storage.
-- **Virtual Machines**: Virtual environments where services are running (e.g., media, testing & security).
   
 ➡️ [Learn more about the Homelab Setup](homelab.md)
 
