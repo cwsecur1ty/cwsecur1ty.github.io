@@ -10,20 +10,21 @@ title: "Home"
   </a>
 </div>
 
-# Welcome to my Documentation Hub
+# Cameron's Documentation Hub
 
-This hub documents the design, setup, and ongoing projects of my homelab & security projects. You’ll find resources on each part of my Proxmox homelab, covering network configuration, services, monitoring, and future project plans.
+Design, setup, and ongoing projects of my homelab & security projects.
 
 ---
 
 ## 📖 Table of Contents
 
 1. [Overview](#overview)
-2. [Homelab Setup](#Homelab-Setup)
-3. [Coding/Dev Project Work](#Coding/Dev-Project-Work)
-4. [Server Architecture](#server-architecture)
-5. [Security and Monitoring](#security-and-monitoring)
-6. [Future Projects](#future-projects)
+2. [Homelab Setup](#🖧-Homelab)
+3. [AWS Projects](#aws)
+4. [Coding/Dev Project Work](#Coding/Dev-Project-Work)
+5. [Server Architecture](#server-architecture)
+6. [Security and Monitoring](#security-and-monitoring)
+7. [Future Projects](#future-projects)
 
 ---
 
@@ -33,10 +34,22 @@ My home lab is built on Proxmox and is designed to host various services for IT 
 
 ---
 
-## 🖧 Homelab Setup
+## 🖧 Homelab
 
 The lab setup involves a segmented architecture allowing isolated environments for different services, improving both organisation and security. Key elements include:
 
+- **Proxmox**: Proxmox VE is used to manage my VMs, containers and storage.
+- **Virtual Machines**: Virtual environments where services are running (e.g., media, testing & security).
+  
+➡️ [Learn more about the Homelab Setup](homelab.md)
+
+---
+
+## AWS
+
+Collection of AWS projects; Cloud solutions, security automation, and scalable architectures. Each project is designed to showcase practical skills with AWS services.
+
+- [Website Hosting on S3 with CloudFront](aws-s3-website.md) (A secure, cost-effective static website hosted on S3 with global delivery via CloudFront.)
 - **Proxmox**: Proxmox VE is used to manage my VMs, containers and storage.
 - **Virtual Machines**: Virtual environments where services are running (e.g., media, testing & security).
   
