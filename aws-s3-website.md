@@ -32,40 +32,67 @@ This project demonstrates hosting a secure, cost-effective static website using 
 
 ## 🛠️ Architecture
 
-The setup includes:
-- An **S3 bucket** for static file storage.
+Setup includes:
+- An **S3 bucket** for file storage.
 - A **CloudFront distribution** for HTTPS access and global delivery.
 - IAM role for secure S3 access.
 
-![Architecture Diagram1](/images/aws-s3-web-diagram)
-![Architecture Diagram2](aws-s3-web-diagram)
-![Architecture Diagram3](/images/aws-s3-web-diagram.png)
-![Architecture Diagram4](/aws-s3-web-diagram)
+![Architecture Diagram](/images/aws-s3-web-diagram)
 
 ---
 
-## 🔧 Step-by-Step Setup
+## Step-by-Step Setup & Configuration
 
-### 1. S3 Bucket Configuration
-- Enable **Static Website Hosting**.
-- Upload `index.html` and `error.html`.
+### 1. Create the S3 Bucket on AWS
+- Log in to the AWS Management Console.
+- Click Create Bucket
+-   Name the bucket something great like: 'camerons-epic-s3'
+-   Disable "Block all public access" (temporarily for setup)
+- Scroll down and click '**Create bucket**'
 
-### 2. CloudFront Distribution
-- Connect CloudFront to the S3 bucket.
-- Enable HTTPS and configure caching.
+### 2. Enable Static Website Hosting on S3
+- Navigate to the Bucket.
+- Enter the properties page.
+- Scroll down to 'Static website hosting' (this is at the bottom).
+-   Click 'Edit'
+-   Change from 'Disable' to 'Enable' (**At this point I needed to create an index.html & error.html to host on the Bucket - you will too.**)
+- For now, just name the two files, I kept it simple with index.html & error.html.
 
-### 3. Security Hardening
-- Block direct public access to S3.
-- Use **Bucket Policies** and **Origin Access Identity**.
+### 3. Upload Web Content to the S3
+- Navigate back to the Overview page.
+- Click 'Upload' and upload your index.html & error.html.
 
----
+### 4. Configure CloudFront for Content Delivery
+- Navigate to CloudFront (I did this by the very top search bar and searching 'CloudF'
+- Click Create Distribution.
+- Follow this:
+-   Set the Origin Domain to your s3. (Mine is: camerons-epic-s3)
+-   Change Origin Access to OAC (This superseded OAI)
+-   Click 'Create new OAC' & name it.
+-   Under 'Default cache behaviour' use the default policy.
+-   In Default Cache Behavior:
+-     Viewer Protocol Policy: Redirect HTTP to HTTPS.
+-     Allowed HTTP Methods: GET, HEAD (for static content).
+- Under 'Default Root Object' set this to
+-   index.html
+- Finally, click 'Create Distribution'
 
-## 🖥️ Testing the Setup
+### 5. Update the S3 Bucket Policy for OAC
+- On the page of your newly created CloudFront there should be a yellow warning regarding your OAC policy.
+- Follow these steps:
+-   Click 'Copy policy'.
+-   Navigate to the S3 console.
+-   Select your bucket.
+-   Go to the Permissions tab.
+-   Scroll down to the 'Bucket policy' section & click 'Edit'
+-   Paste the copied policy into the editor.
+-   Click 'Save Changes'.
 
-1. Visit the CloudFront domain.
-2. Verify:
-   - The home page (`index.html`) loads.
-   - Error handling works (`error.html`).
+### 6. Verify
+- Go back to the **CloudFront Console**.
+- Open up your Distribution.
+- Verify the warning is no longer present.
+- Test your domain URL which in my case is: [Here](https://d1l9lyx1eakae6.cloudfront.net)
 
 ---
 
@@ -84,20 +111,10 @@ The setup includes:
 
 ---
 
-## 📜 Code and Resources
-
-- **Bucket Policy**: [bucket-policy.json](bucket-policy.json)
-- **Sample HTML**:
-  - `index.html`
-  - `error.html`
-
----
-
 ## 📝 Future Improvements
 
 - Integrate Route 53 for custom domains.
 - Implement CloudWatch for monitoring and logging.
-
 
 
 
