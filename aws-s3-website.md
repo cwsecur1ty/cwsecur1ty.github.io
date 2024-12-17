@@ -37,10 +37,10 @@ The setup includes:
 - A **CloudFront distribution** for HTTPS access and global delivery.
 - IAM role for secure S3 access.
 
-![Architecture Diagram](/images/aws-s3-web-diagram)
-![Architecture Diagram](aws-s3-web-diagram)
-![Architecture Diagram](/images/aws-s3-web-diagram.png)
-![Architecture Diagram](/aws-s3-web-diagram)
+![Architecture Diagram1](/images/aws-s3-web-diagram)
+![Architecture Diagram2](aws-s3-web-diagram)
+![Architecture Diagram3](/images/aws-s3-web-diagram.png)
+![Architecture Diagram4](/aws-s3-web-diagram)
 
 ---
 
