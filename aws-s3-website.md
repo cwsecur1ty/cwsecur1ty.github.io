@@ -46,16 +46,16 @@ Setup includes:
 ### 1. Create the S3 Bucket on AWS
 - Log in to the AWS Management Console.
 - Click Create Bucket
--   Name the bucket something great like: 'camerons-epic-s3'
--   Disable "Block all public access" (temporarily for setup)
+  - Name the bucket something great like: 'camerons-epic-s3'
+  - Disable "Block all public access" (temporarily for setup)
 - Scroll down and click '**Create bucket**'
 
 ### 2. Enable Static Website Hosting on S3
 - Navigate to the Bucket.
 - Enter the properties page.
 - Scroll down to 'Static website hosting' (this is at the bottom).
--   Click 'Edit'
--   Change from 'Disable' to 'Enable' (**At this point I needed to create an index.html & error.html to host on the Bucket - you will too.**)
+  - Click 'Edit'
+  - Change from 'Disable' to 'Enable' (**At this point I needed to create an index.html & error.html to host on the Bucket - you will too.**)
 - For now, just name the two files, I kept it simple with index.html & error.html.
 
 ### 3. Upload Web Content to the S3
@@ -66,27 +66,27 @@ Setup includes:
 - Navigate to CloudFront (I did this by the very top search bar and searching 'CloudF'
 - Click Create Distribution.
 - Follow this:
--   Set the Origin Domain to your s3. (Mine is: camerons-epic-s3)
--   Change Origin Access to OAC (This superseded OAI)
--   Click 'Create new OAC' & name it.
--   Under 'Default cache behaviour' use the default policy.
--   In Default Cache Behavior:
--     Viewer Protocol Policy: Redirect HTTP to HTTPS.
--     Allowed HTTP Methods: GET, HEAD (for static content).
+  - Set the Origin Domain to your s3. (Mine is: camerons-epic-s3)
+  - Change Origin Access to OAC (This superseded OAI)
+  - Click 'Create new OAC' & name it.
+  - Under 'Default cache behaviour' use the default policy.
+  - In Default Cache Behavior:
+    - Viewer Protocol Policy: Redirect HTTP to HTTPS.
+    - Allowed HTTP Methods: GET, HEAD (for static content).
 - Under 'Default Root Object' set this to
--   index.html
+  - index.html
 - Finally, click 'Create Distribution'
 
 ### 5. Update the S3 Bucket Policy for OAC
 - On the page of your newly created CloudFront there should be a yellow warning regarding your OAC policy.
 - Follow these steps:
--   Click 'Copy policy'.
--   Navigate to the S3 console.
--   Select your bucket.
--   Go to the Permissions tab.
--   Scroll down to the 'Bucket policy' section & click 'Edit'
--   Paste the copied policy into the editor.
--   Click 'Save Changes'.
+  - Click 'Copy policy'.
+  - Navigate to the S3 console.
+  - Select your bucket.
+  - Go to the Permissions tab.
+  - Scroll down to the 'Bucket policy' section & click 'Edit'
+  - Paste the copied policy into the editor.
+  - Click 'Save Changes'.
 
 ### 6. Verify
 - Go back to the **CloudFront Console**.
