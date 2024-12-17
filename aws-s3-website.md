@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "AWS S3 Website with CloudFront"
 permalink: /aws-s3-website/
 ---
