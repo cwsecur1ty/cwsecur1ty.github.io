@@ -3,13 +3,7 @@ layout: page
 title: "AWS S3 Website with CloudFront"
 permalink: /aws-s3-website/
 ---
-# Homelab Setup
 
-
----
-layout: default
-title: "AWS S3 Website with CloudFront"
----
 # 🚀 AWS S3 Website with CloudFront
 
 <!-- LinkedIn logo and link at the top -->
