@@ -73,8 +73,8 @@ Setup includes:
   - In Default Cache Behavior:
     - Viewer Protocol Policy: Redirect HTTP to HTTPS.
     - Allowed HTTP Methods: GET, HEAD (for static content).
-- Under 'Default Root Object' set this to
-  - index.html
+  - Under 'Default Root Object' set this to
+    - index.html
 - Finally, click 'Create Distribution'
 
 ### 5. Update the S3 Bucket Policy for OAC
