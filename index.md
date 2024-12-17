@@ -16,7 +16,7 @@ Design, setup, and ongoing projects of my homelab & security projects.
 
 ---
 
-## 📖 Table of Contents
+## Contents
 
 1. [Overview](#overview)
 2. [Homelab Setup](#🖧-Homelab)
@@ -30,7 +30,7 @@ Design, setup, and ongoing projects of my homelab & security projects.
 
 ## Overview
 
-My home lab is built on Proxmox and is designed to host various services for IT support and cybersecurity learning, experimentation, and documentation. This documentation hub will also feature network diagrams, architecture overviews, and configuration steps for anyone interested in replicating or learning from this setup.
+This page acts as an index for all of my project work across AWS, Development and Labbing.
 
 ---
 
@@ -58,10 +58,10 @@ My featured projects are:
 
 (All projects are a consistent work in progress to keep them updated with standards and patches)
 
-- **[PowerShell Scripts](https://github.com/cwsecur1ty/PowerShell-Scripts)**: PowerShell scripts to remediate and fix things through Intune for Windows Environments.
-- **[URL Hunter](https://github.com/cwsecur1ty/URLHunter)**: URLHunter is a fast and efficient web directory brute-forcer/scanner. It is designed to uncover hidden directories and files on web servers by using a wordlist to generate requests to specified URLs.
-- **[Port Hunter](https://github.com/cwsecur1ty/PortFinder)** A Python-based tool for scanning ports on one or more target IP addresses or URLs. It supports scanning a range of ports, resolving hostnames to IP addresses, and saving scan results to a file.
-- **[Sentinel C2](https://github.com/cwsecur1ty/SentinelC2)** This project aims to better my understanding of Command and Control (C2) servers and expand my defensive skills against such threats. The project includes a C2 server and client written in Python, demonstrating basic interactions between a server and multiple clients.
+- **[PowerShell Scripts](https://github.com/cwsecur1ty/PowerShell-Scripts)**: PowerShell scripts to remediate and push fixes through Intune.
+- **[URL Hunter](https://github.com/cwsecur1ty/URLHunter)**: A fast and efficient web directory brute-forcer/scanner. It is designed to uncover hidden directories and files on web servers by using a wordlist.
+- **[Port Hunter](https://github.com/cwsecur1ty/PortFinder)** Python tool for scanning ports on one or more target IP addresses or URLs. It supports scanning a range of ports, resolving hostnames to IP addresses, and saving scan results to a file.
+- **[Sentinel C2](https://github.com/cwsecur1ty/SentinelC2)** This project aimed to better my understanding of Command and Control (C2) servers and expand my defensive skills against such threats.
 - **[Debian/Linux Hardener Toolkit/Automation](https://github.com/cwsecur1ty/Debian-Hardener-Toolkit)**: A toolkit for automating Linux security hardening and compliance auditing
 - **SIEM Tools (Splunk)**: Set up for log aggregation, analysis, and security monitoring with a web interface on my home lab.
 - **Pihole**: Network-level ad blocker for network security and monitoring on my home network, hosted on my ProxMox machine.
